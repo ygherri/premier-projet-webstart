@@ -16,46 +16,95 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@200&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300&family=Raleway:wght@200&family=Roboto:wght@300&display=swap"
         rel="stylesheet">
+   
 
     
 </head>
  <body>
     <!-- CHAQUE PAGE DOIT OBLIGATOIREMENT AVOIR UN H1 -->
-    <header>
-        <h1>Fondation, la nouvelle série sur AppleTV</h1>
+    
+        
         <nav>
             <!-- ul>li*3>a -->
-            <ul>
-                <li><a href="#synopsis">Synopsis</a></li>
-                <li><a href="#distribution">Distribution</a></li>
-                <li><a href="#savoir-plus">Savoir-plus</a></li>
-            </ul>
+            <h1>Fondation, la nouvelle série sur <span>AppleTV</span></h1>
+            <div class="menu">
+                <ul>
+                    <li><a href="#synopsis">Synopsis</a></li>
+                    <li><a href="#distribution">Distribution</a></li>
+                    <li><a href="#savoir-plus">Savoir-plus</a></li>
+                </ul>
+            </div>
         </nav>
-        <img src="template.jpg" alt="Affiche de la série Fondation." />
+    <header class="items">
+
+        <img class="item" src="foundation_2.jpg" alt="Affiche de la série Fondation." />
+        
+        
     </header>
 
     <main>
         <section id="synopsis">
             <h2>Synopsis</h2>
-            <p>L'empire galactique, dirigé par la dynastie génétique des clones de <strong>l'Empereur Cléon I<sup>er</sup></strong>, se voit prédire par la
-             Psychohistoire (science imaginaire fondée par Hari Seldon) un effondrement suivi de 30 000 ans de ténèbres avant qu'un
-             second empire galactique ne prenne la relève.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ullam fugit, sapiente eius omnis perferendis asperiores. Veniam autem ad ex dolores cum, excepturi similique expedita aliquam vitae vel, sed odit?</p>
+                <p>L'empire galactique, dirigé par la dynastie génétique des clones de <strong>l'Empereur Cléon I<sup>er</sup></strong>, se voit prédire par la
+                Psychohistoire (science imaginaire fondée par Hari Seldon) un effondrement suivi de 30 000 ans de ténèbres avant qu'un
+                second empire galactique ne prenne la relève.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis ullam fugit, sapiente eius omnis perferendis asperiores. Veniam autem ad ex dolores cum, excepturi similique expedita aliquam vitae vel, sed odit?</p>
         </section>    
             <section id="distribution">
                 <h2>Distribution</h2>
                 <!-- les enfants directs d'une ul ne peuvent être que des li  -->
-                <ul>
+                <ul class="auteurs">
                     <!-- les li doivent être obligatoirement placés dans un ul ou un ol -->
-                    <li>Jared Harris (VF : Yann Guillemot) : Hari Seldon, psychohistorien</li>
-                    <li>Lee Pace (VF : Anatole de Bodinat) : Frère au Grand Jour, Empereur de la Galaxie</li>
-                    <li>Lou Llobell (VF : Léopoldine Serre) : Gaal Dornick, mathématicienne, narratrice de la série</li>
-                    <li>Leah Harvey (en) (VF : Déborah Claude) : Salvor Hardin, gardienne de Terminus</li>
-                    <li>Laura Birn (VF : Marie Diot) : Eto Demerzel, robot humanoïde, conseillère de l'empereur</li>
-                    <li>Terrence Mann (VF : Philippe Catoire) : Frère au Soir / Frère à la Nuit (empereur âgé / mourant)</li>
-                    <li>Cassian Bilton (VF : Gabriel Bismuth-Bienaimé) : Frère à l'Aurore (empereur jeune)</li>
+                    <li class="auteur"><div class="card"><img src="Jared Harris.jpg" alt="image auteur"/><h3 class="card-title"><span>Jared Harris</span> (VF:Yann Guillemot):Hari Seldon, psychohistorien.</h3></div></li>
+                    <li class="auteur">
+                        <div class="card">
+                            <img src="Lee Pace .jpg" alt="image auteur" />
+                            <h3 class="card-title"><span>Lee Pace</span> (VF : Anatole de Bodinat):Frère au Grand Jour, Empereur de la Galaxie.</h3>
+                        </div>
+                    </li>
+                    <li class="auteur">
+                        <div class="card">
+                            <img src="Lou Llobell.jpg"
+                                alt="image auteur" />
+                                <h3 class="card-title"><span>Lou Llobell</span> (VF:Léopoldine Serre),mathématicienne narratrice de la série.</h3>
+                        </div>
+                    </li>
+                    <li class="auteur">
+                        <div class="card">
+                            <img src="Leah Harvey.jpg"
+                                alt="image auteur" />
+                                <h3 class="card-title"><span>Leah Harvey</span> (en) (VF:Déborah Claude):Salvor Hardin, gardienne de Terminus.</h3>
+                        </div>
+                    </li>
+                    <li class="auteur">
+                        <div class="card">
+                            <img src="Laura Birn .jpg"
+                                alt="image auteur" />
+                                <h3 class="card-title"><span>Laura Birn</span> (VF: Marie Diot):Eto Demerzel, robot humanoïde, conseillère de l'empereur.
+                                </h3>
+                        </div>
+                    </li>
+                    <li class="auteur">
+                        <div class="card">
+                            <img src="Terrence Mann.jpg"
+                                alt="image auteur" />
+                                <h3 class="card-title"><span>Terrence Mann</span> (VF : Philippe Catoire):Frère au Soir / Frère à la Nuit (empereur âgé
+                                    / mourant).</h3>
+                        </div>
+                    </li>
+                    <li class="auteur">
+                        <div class="card">
+                           <img src="Cassian Bilton.jpg"
+                                alt="image auteur" />
+                                <h3 class="card-title"><span>Cassian Bilton</span> (VF : Gabriel Bismuth-Bienaimé) : Frère à l'Aurore (empereur jeune).
+                                </h3>
+                        </div>
+                    </li>
+                    
+                    
                 
                 </ul>
             </section>
@@ -66,11 +115,11 @@
                 ul>li*3 -->
             
             <ul>
-                <li><a href="https://fr.wikipedia.org/wiki/Foundation_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)#Épisodes" target="_blank">Liste des épisodes sur Wikipedia</a></li>
-                <li><a href="https://tv.apple.com/fr/show/foundation/umc.cmc.5983fipzqbicvrve6jdfep4x3" target="_blank">La série sur AppleTV</a></li>
+                <li><a href="https://fr.wikipedia.org/wiki/Foundation_(s%C3%A9rie_t%C3%A9l%C3%A9vis%C3%A9e)#Épisodes" target="_blank"><button>Liste des épisodes sur Wikipedia</button></a></li>
+                <li><a href="https://tv.apple.com/fr/show/foundation/umc.cmc.5983fipzqbicvrve6jdfep4x3" target="_blank"><button>La série sur AppleTV</button></a></li>
                 <li>
                     <!-- Les liens pointant vers une page extérieur à notre site doivent avoir l'attribut target="_blank" pour que l'utilisateur ne quitte pas définitivement notre site -->
-                    <a href="https://www.premiere.fr/Series/News-Series/Fondation-que-vaut-lenorme-serie-SF-dApple-TV--critique" target="_blank">Critique de la série sur Première</a>
+                    <a href="https://www.premiere.fr/Series/News-Series/Fondation-que-vaut-lenorme-serie-SF-dApple-TV--critique" target="_blank"><button>Critique de la série sur Première</button></a>
                 </li>
             </ul>
         </section>
