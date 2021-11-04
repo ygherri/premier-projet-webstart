@@ -217,6 +217,8 @@ button:hover {
   h1 {
     padding-bottom: 0;
     margin-bottom: 0;
+    font-size: 15px;
+    line-height: 0;
   }
   #savoir-plus ul {
     flex-direction: column;
@@ -233,5 +235,7 @@ button:hover {
   button {
     height: 48px;
     width: 326px;
+  }
+  nav ul li {
   }
 }
