@@ -200,6 +200,7 @@ button:hover {
 }
 #distribution h2 {
   text-align: center;
+
   padding-bottom: 30px;
 }
 @media screen and (max-width: 1320px) {
