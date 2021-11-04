@@ -187,7 +187,7 @@ button {
   border-radius: 65px;
   cursor: pointer;
   transition: all 0.5s;
-  padding: 20px 65px;
+  padding: 10px 65px;
 }
 button:hover {
   background-color: white;
@@ -201,4 +201,36 @@ button:hover {
 #distribution h2 {
   text-align: center;
   padding-bottom: 30px;
+}
+@media screen and (max-width: 1320px) {
+  nav {
+    flex-direction: column;
+    height: 20%;
+  }
+  nav ul {
+    flex-direction: initial;
+    text-align: center;
+    margin-left: 0;
+    padding: 0;
+  }
+  h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  #savoir-plus ul {
+    flex-direction: column;
+    align-content: center;
+    vertical-align: middle;
+    margin-left: 0;
+  }
+  #savoir-plus ul li {
+    margin-bottom: 20px;
+
+    align-items: center;
+    vertical-align: middle;
+  }
+  button {
+    height: 48px;
+    width: 326px;
+  }
 }
